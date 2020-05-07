@@ -1,0 +1,192 @@
+
+GENERAL CONDITIONS OF THE API USAGE LICENSE ` ISKN API `
+
+I – PURPOSE OF TERMS AND CONDITIONS
+
+The present terms constitute the general conditions of concession of a non-exclusive and non-transferable API (programming interface) usage license, called “ISKN API” (hereafter “API”), of which ISKN is the developer, permitting the development of interfaces between the embedded software developed by ISKN and used with the tablet sold by ISKN (“the Slate”) and software developments carried out by Customers. The present terms are applicable to API license concessions carried out by ISKN for professional and consumer customers (hereafter “Customers”). A professional Customer includes any physical person who acts for purposes which are outside the scope of his trade, business, craft or profession.  
+
+By completing the form provided for this purpose on the website www.isketchnote.com (hereafter the « Site »), the Customer has the option to download the API on the Site and, in using it in any manner whatsoever in respecting the present terms and conditions, the Customer recognizes as an API user that he has expressly read, understood and accepted in their entirety the present general conditions and agrees to respect them. The Customer is informed that the API functions only with the “Slate” tablet commercialized by ISKN, and recognizes this. ISKN cannot be held responsible in the case of API non-functionality on a support different from “the Slate.” 
+
+ISKN reserves the right to modify the present general conditions at any time. ISKN will inform the Customer of any changes. It is the Customer’s responsibility to take note of the new API terms of use figuring on the Site and comply with them. 
+
+II. PRECONTRACTUAL INFORMATION
+
+The terms of the present article apply only to consumer Customers. 
+
+The Customer recognizes that he has taken note of the following information, before the conclusion of the contract notably in the present general conditions and/or on the Site: 
+
+- The essential characteristics and the price of an API usage license set by ISKN on the Site 
+- The date and the period during which the API is made available to the Customer 
+- The information relative to the identity, the contact information and the activities of ISKN
+
+III – USER LICENSE
+
+Delivery of the API is carried out by ISKN, to the Customer, upon the latter’s completion of the formula to that effect, furnishing a right of access allowing the Customer to download the said API by clicking the link provided to that effect on the Site. 
+
+The Customer is informed of the fact that the API can function only with the “Slate” tablet commercialized by ISKN. 
+
+Under these conditions, the delivery does not implicate any installation whatsoever on the part of ISKN. 
+
+ISKN may furnish, at the request of the Customer, free assistance with setup and installation at the time of download. This assistance includes only assistance with download and in no case supplementary assistance, notably training. 
+
+IV – LICENSE TIME PERIOD 
+
+The present API license is ceded for the legal duration of copyright protection. 
+
+However, in the case of cessation of contractual relations between the Customer and ISKN, notably in the case of gross negligence specified by Article XIV of the present conditions, the Customer is required to stop using the API immediately, with no right to indemnity for the Customer. 
+
+V – API TERMS OF USE 
+
+The present API user license is conceded to the Customer in the strict respect of the following conditions:
+
+-	The Customer’s right to use the API is expressly limited to the interfacing of developments carried out specifically by the Customer with embedded software developed by ISKN
+-	The API may be used only by the Customer on his/her computer(s) installed on the Customer’s site whose address is marked on the download form completed by the Customer. Any change of the site of API use must be communicated to ISKN prior to change in writing. 
+-	The Customer is forbidden to allow any and all third parties access the API without prior written authorization from ISKN. 
+-	The furnishing of the API constitutes neither a sale nor a rental. The API remains the property of ISKN and must be identified as such by the Customer. 
+
+VI – RECOMMENDATIONS RELATIVE TO USE OF THE SOFTWARE
+
+The Customer takes sole responsibility for the setup and use of the API. He/she must notably: 
+
+-	Insure that he/she possesses a configuration, basic software, networks and an operating system permitting the use of the API 
+-	Insure that he/she possesses the means, skills, and structures necessary to use the API 
+-	Develop all security mechanisms appropriate for saving and restoring data in case of anomalies in program operation
+-	For professional Customers, insure that he/she has access to qualified personnel for use of the API and remediation of any eventual incidents 
+
+Any non-respect of these API usage conditions are the Customer’s responsibility. 
+
+The Customer agrees to expressly respect all technical recommendations of ISKN. ISKN may in no case be held responsible for any consequences originating in the Customer’s non-respect of instructions formulated by ISKN or by the API, notably in the matter of technical recommendations. 
+
+VII – INTELLECTUAL PROPERTY
+
+ISKN is the author or representative of the author of the API. As such, ISKN conserves the intellectual property of the API and the ensemble of the prerogatives associated with it. 
+
+The present license confers to the Customer no right to the intellectual property of the API, which remains the exclusive and entire property of ISKN. The Customer has in no case access to the API source code. 
+
+The right to use/usage is granted under the conditions specified herein exclusively for the needs of the Customer. 
+
+The Customer undertakes to respect property particulars on the API, media or any documentation. 
+
+The Customer may not reproduce permanently or temporarily the API in whole or in part, by any means and in any form, including on the occasion of loading, displaying, running, or in transmitting or storing the API. 
+
+The Customer is further prohibited from modifying or attempting to modify, translate, adapt, arrange, reproduce, separate, disassemble or decompile the API in any matter whatsoever. The Customer may not undertake the acts referred to in paragraphs 1 and 2 of Article L122-6 of the French Intellectual Property Code without the prior written consent of ISKN. 
+
+The Customer agrees to not remove or attempt to remove copyright notices that may appear on the API. The API may not be lent, rented, sold, commercialized, made available or used for the profit of third parties in any form whether free or not. 
+
+The Customer warrants ISKN against any action that may be taken against it due to the use of the API in conditions that do not comply with these terms and conditions. 
+
+ISKN warrants the Customer against any infringement action originating in the API. 
+
+VIII – WARRANTY 
+The present right of use of the API is covered by the legal warranty against hidden defects under Section 1641 and following of the French Civil Code. 
+
+As such, ISKN guarantees the hidden defects of the API license agreement which render it unfit for the use for which it was intended, or that decrease this use that the customer would not have acquired, or would have paid a lower price if he had known. As such, the Customer may choose between the cancellation of the sale or a reduction in price pursuant to Article 1644 of the French Civil Code. 
+
+
+
+Use of the API is not subject to any warranty whatsoever. 
+
+ISKN does not guarantee that the API will function correctly in all computing environments and furthermore cannot be in any case held responsible for disruptions or interruptions in Internet access networks. 
+
+The Customer acknowledges that it is not possible to guarantee that the API will satisfy performance expectations or that it will function without discontinuities or bugs. ISKN cannot bear the risks associated with API quality and performance. 
+
+ISKN cannot be held liable for any indirect damages because of this, including loss of revenue, loss of business, commercial loss, lost profits or any claims made by a third party whatsoever against the Customer. The total responsibility of ISKN with respect to the Customer, professional only, for any direct loss is limited to the greater of the two following sums: €50,000 (fifty thousand euros) or the total amount of the price paid by the Customer for API usage. 
+
+ISKN is not liable for any direct or indirect losses caused by installation of the API, improper usage, incorrect usage or usage that does not respect the procedures and technical recommendations indicated by ISKN. 
+IX – AFTER-SALES SERVICE 
+
+ISKN ensures, during the concession period of the right to API usage, after-sales service for Customers having acquired in the application of present conditions, usage rights to the API. This after-sales service includes only access, for the Customer, via the following URL: http://developer.iskn.co, a website featuring discussions and questions/answers permitting the Customer to understand the operation of the API and/or to resolve eventual operational difficulties. 
+X – LICENSE COST
+
+The present API usage license is granted under the following financial conditions: 
+- If the Customer makes, through software created with or developments carried out through the API, revenue less than €100,000 (one hundred thousand euros): the API usage license is granted for free; 
+- If the Customer makes, through software created with or developments carried out through the API, revenue above €100,000 (one hundred thousand euros): the Customer agrees to pay ISKN a licensing fee proportional to an amount of 10% (ten percent) of revenue earned. 
+
+In this context, the Customer agrees to declare at the end of each month, the revenue earned through software created with or developments carried out through the API. 
+
+ISKN will send the Customer an invoice with the amount of the monthly fee established according to the statement made by the Customer. 
+
+The Customer undertakes to pay all invoices within thirty (30) days following the date of issue. 
+
+In the case where payment is not made by the planned date, all amounts due, even those which are not yet past due, are immediately payable without prior notice. Amounts due will be, moreover, increased with penalties at the rate of six time the legal interest rate in force. A Customer in arrears is moreover by all rights a debtor of ISKN of lump sum fixed by decree for recovery costs, at the date of present conditions, at €40 (forty euros). 
+
+XI – AUDIT
+
+THE TERMS OF THE PRESENT ARTICLE APPLY ONLY TO PROFESSIONAL NON-CONSUMER CUSTOMERS. 
+
+ISKN may carry out or appoint a provider of its choice, subject to professional secrecy, to carry out at any time during the execution of this contract, without the need to justify the reasons, at its expense, an audit of the API usage conditions by the Customer in order to ensure the Customer’s compliance with its obligations under this contract. 
+
+ISKN must advise the Customer in writing of its intention to proceed to an audit, respecting a minimum notice period of 3 business days. 
+
+The Customer agrees to cooperate in good faith and without reservation with any auditor thus designated. The Customer must permit the designated auditors to accede to all facilities and all information necessary for the proper conduct of the audit being understood that: 
+
+-	The consultation of documents must be undertaken in the facilities used by the Customer 
+-	The information gathered may not be used to other ends 
+-	The Customer agrees to cooperate with this audit notably in allowing access to all pertinent information 
+
+In the case of a discrepancy between declared revenue and realized revenue, the audit fees will be borne by the Customer.
+
+Moreover, the Customer agrees to pay within a maximum of 30 (thirty) days following written notification from ISKN, any additional license fees recorded as due in the event that use of the API does not correspond to royalties paid, plus 50 (fifty) percentage points of the amount due. 
+
+XII – CONFIDENTIALITY 
+The Customer agrees not to disclose to anyone, directly or indirectly, all or part of the information of any kind, commercial, industrial, technical, financial, nominative, et cetera, that has been communicated to him by ISKN by the present conditions/hereof. 
+
+XIII - FORCE MAJEURE  / EXTERNAL CAUSES 
+
+ISKN cannot be held responsible by the Customer if execution of the present contract is delayed or prevented in the case of force majeure or external causes, including notably any and all defects of a telecommunications network, Internet lines or electrical networks. The condition of force majeure extends as it is defined by the jurisprudence of French courts. External cause is constituted by any event exterior to ISKN which places ISKN in the total impossibility to execute all or part of its obligations hereof. 
+
+XIV – TERMINATION
+
+In the event of failure by one of the parties to fulfill any of the obligations under the present conditions, the other party may terminate this license by right, thirty days after notice by registered letter with acknowledgement of reception remained ineffective. 
+
+In the event of reorganization proceedings or liquidation of one of the Parties, this agreement is subject to the procedures specified in Articles L.621-28 and following of the French Commercial Code. 
+
+Upon termination of the contractual relationship, the Customer undertakes to immediately stop using the API, to uninstall and remove the API from his computer(s). The Customer also undertakes to pay ISKN any sums which are owed to ISKN.
+
+XV – PERSONAL INFORMATION 
+
+The Customer has, in accordance with the provisions of the Act of January 6, 1978, a right of access to data concerning him and the right to modify, change or delete them. To exercise this right, the Customer must send a letter by post or email to the address that figures in the footer of the present terms. 
+
+Personal data relative to the Customer collected through forms, and all future information, are reserved for the exclusive usage of ISKN. 
+
+This information is not communicated or ceded to third parties, other than concerned persons held to respect the confidentiality of this information and to use it only for the precise operation for which they are missioned. 
+
+ISKN stores the Customer’s personal data on its own servers and agrees to maintain the strict confidentiality of this data, which will be stored for a period of three (3) years dating from the end of the API usage license granted to the Customer. 
+
+XVI –ADMINISTRATIVE PROCEDURES
+
+The Customer is responsible for carrying out administrative procedures, authorization requests under the law and regulations regarding data treatment and processed data, in accordance with the rules on the processing of personal data. 
+
+XVII – RENUNCIATION
+
+The fact by either party not to claim a breach of the other party to any of the obligations contained herein, shall not be construed in the future as a waiver of the requirement cause. 
+
+XVIII - CESSION
+
+The present license cannot be the object of a total or partial transfer by the Customer without prior agreement by ISKN. 
+
+XIX – PARTIAL NON-VALIDITY
+
+If any provision of this agreement or any part of them, is invalid under a rule of law or a law in force, it will be deemed unwritten, but does not invalidate the contract nor that of the partially relevant clause. 
+
+XX – NON-COMPETITION
+
+The Customer agrees to not develop or commercialize an API that competes with the API that is the object of these terms for a period of 5 (five) years following download of the API. 
+
+XXI – APPLICABLE LAW AND JURISDICTION
+
+These terms and conditions are governed by French law. In case of disputes arising from the execution or interpretation of this Agreement, the parties agree to meet and try to find an amicable solution to their dispute through mediation. 
+
+IN THE CASE OF FAILURE, ANY DISPUTE OR CONTESTATION PROVOKED BY THE ENFORCEMENT OF THE TERMS AND CONDITIONS WITH A PROFESSIONAL CUSTOMER ARE THE EXCLUSIVE JURISDICTION OF THE COMMERCIAL COURT OF GRENOBLE, NOTWITHSTANDING MULTIPLE DEFENDANTS OR WARRANTY, EVEN FOR EMERGENCY PROCEDURES OR PROTECTIVE PROCEEDINGS, IN INTERIM OR BY APPLICATION.
+
+
+Article 1641 of the French Civil Code: The Seller is required to guarantee against hidden defects of the item sold which render it unfit for the use for which it was intended, or that decrease the use such that the Buyer would not have bought it or would have paid a lower price if he had known. 
+
+Article 1648 of the French Civil Code: The action resulting from latent defects must be brought by the purchaser within two years after the discovery of the defect. 
+
+
+
+
+
+
+

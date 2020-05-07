@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B3C0842206BECF2001401CB /* libISKN_APId.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = DDB5A26E1AAE4C3700789547 /* libISKN_APId.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DD08A4231A922F0000D5BF82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD08A4221A922F0000D5BF82 /* AppDelegate.m */; };
+		DD08A4251A922F0000D5BF82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD08A4241A922F0000D5BF82 /* main.m */; };
+		DD08A4281A922F0000D5BF82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD08A4271A922F0000D5BF82 /* ViewController.m */; };
+		DD08A42A1A922F0000D5BF82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD08A4291A922F0000D5BF82 /* Images.xcassets */; };
+		DD08A42D1A922F0000D5BF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD08A42B1A922F0000D5BF82 /* Main.storyboard */; };
+		DD08A4391A922F0000D5BF82 /* MagicBeepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD08A4381A922F0000D5BF82 /* MagicBeepTests.m */; };
+		DD08A4441A922FB700D5BF82 /* MagicBeep.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD08A4421A922FB700D5BF82 /* MagicBeep.mm */; };
+		DD08A4491A9234B200D5BF82 /* Beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD08A4481A9234B200D5BF82 /* Beep.wav */; };
+		DD08A44B1A9234C100D5BF82 /* Beep 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD08A44A1A9234C100D5BF82 /* Beep 2.wav */; };
+		DD08A44D1A9234CC00D5BF82 /* Beep 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD08A44C1A9234CC00D5BF82 /* Beep 3.wav */; };
+		DDB5A26F1AAE4C3700789547 /* libISKN_APId.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB5A26E1AAE4C3700789547 /* libISKN_APId.dylib */; };
+		DDD52BD21A93F8300036C200 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08A4451A9230EE00D5BF82 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD08A4331A922F0000D5BF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD08A4141A922F0000D5BF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD08A41B1A922F0000D5BF82;
+			remoteInfo = MagicBeep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B3C0843206BECF2001401CB /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6B3C0842206BECF2001401CB /* libISKN_APId.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD08A41C1A922F0000D5BF82 /* MagicBeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD08A4201A922F0000D5BF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD08A4211A922F0000D5BF82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD08A4221A922F0000D5BF82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD08A4241A922F0000D5BF82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD08A4261A922F0000D5BF82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD08A4271A922F0000D5BF82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD08A4291A922F0000D5BF82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD08A42C1A922F0000D5BF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD08A4321A922F0000D5BF82 /* MagicBeepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBeepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD08A4371A922F0000D5BF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD08A4381A922F0000D5BF82 /* MagicBeepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicBeepTests.m; sourceTree = "<group>"; };
+		DD08A4421A922FB700D5BF82 /* MagicBeep.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = MagicBeep.mm; sourceTree = "<group>"; };
+		DD08A4431A922FB700D5BF82 /* MagicBeep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicBeep.h; sourceTree = "<group>"; };
+		DD08A4451A9230EE00D5BF82 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DD08A4481A9234B200D5BF82 /* Beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Beep.wav; path = MagicBeep/Beep.wav; sourceTree = "<group>"; };
+		DD08A44A1A9234C100D5BF82 /* Beep 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Beep 2.wav"; path = "MagicBeep/Beep 2.wav"; sourceTree = "<group>"; };
+		DD08A44C1A9234CC00D5BF82 /* Beep 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Beep 3.wav"; path = "MagicBeep/Beep 3.wav"; sourceTree = "<group>"; };
+		DDB5A26E1AAE4C3700789547 /* libISKN_APId.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libISKN_APId.dylib; path = ../../../ISKN_API/x64_MACOS_Clang/bin/libISKN_APId.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD08A4191A922F0000D5BF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB5A26F1AAE4C3700789547 /* libISKN_APId.dylib in Frameworks */,
+				DDD52BD21A93F8300036C200 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD08A42F1A922F0000D5BF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD08A4131A922F0000D5BF82 = {
+			isa = PBXGroup;
+			children = (
+				DDB5A26E1AAE4C3700789547 /* libISKN_APId.dylib */,
+				DD08A4471A9233EE00D5BF82 /* Sounds */,
+				DD08A4451A9230EE00D5BF82 /* AudioToolbox.framework */,
+				DD08A41E1A922F0000D5BF82 /* MagicBeep */,
+				DD08A4351A922F0000D5BF82 /* MagicBeepTests */,
+				DD08A41D1A922F0000D5BF82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD08A41D1A922F0000D5BF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD08A41C1A922F0000D5BF82 /* MagicBeep.app */,
+				DD08A4321A922F0000D5BF82 /* MagicBeepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD08A41E1A922F0000D5BF82 /* MagicBeep */ = {
+			isa = PBXGroup;
+			children = (
+				DD08A4211A922F0000D5BF82 /* AppDelegate.h */,
+				DD08A4221A922F0000D5BF82 /* AppDelegate.m */,
+				DD08A4261A922F0000D5BF82 /* ViewController.h */,
+				DD08A4271A922F0000D5BF82 /* ViewController.m */,
+				DD08A4291A922F0000D5BF82 /* Images.xcassets */,
+				DD08A42B1A922F0000D5BF82 /* Main.storyboard */,
+				DD08A41F1A922F0000D5BF82 /* Supporting Files */,
+				DD08A4421A922FB700D5BF82 /* MagicBeep.mm */,
+				DD08A4431A922FB700D5BF82 /* MagicBeep.h */,
+			);
+			path = MagicBeep;
+			sourceTree = "<group>";
+		};
+		DD08A41F1A922F0000D5BF82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD08A4201A922F0000D5BF82 /* Info.plist */,
+				DD08A4241A922F0000D5BF82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD08A4351A922F0000D5BF82 /* MagicBeepTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD08A4381A922F0000D5BF82 /* MagicBeepTests.m */,
+				DD08A4361A922F0000D5BF82 /* Supporting Files */,
+			);
+			path = MagicBeepTests;
+			sourceTree = "<group>";
+		};
+		DD08A4361A922F0000D5BF82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD08A4371A922F0000D5BF82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD08A4471A9233EE00D5BF82 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DD08A4481A9234B200D5BF82 /* Beep.wav */,
+				DD08A44A1A9234C100D5BF82 /* Beep 2.wav */,
+				DD08A44C1A9234CC00D5BF82 /* Beep 3.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD08A41B1A922F0000D5BF82 /* MagicBeep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD08A43C1A922F0000D5BF82 /* Build configuration list for PBXNativeTarget "MagicBeep" */;
+			buildPhases = (
+				DD08A4181A922F0000D5BF82 /* Sources */,
+				DD08A4191A922F0000D5BF82 /* Frameworks */,
+				DD08A41A1A922F0000D5BF82 /* Resources */,
+				6B3C0843206BECF2001401CB /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicBeep;
+			productName = MagicBeep;
+			productReference = DD08A41C1A922F0000D5BF82 /* MagicBeep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD08A4311A922F0000D5BF82 /* MagicBeepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD08A43F1A922F0000D5BF82 /* Build configuration list for PBXNativeTarget "MagicBeepTests" */;
+			buildPhases = (
+				DD08A42E1A922F0000D5BF82 /* Sources */,
+				DD08A42F1A922F0000D5BF82 /* Frameworks */,
+				DD08A4301A922F0000D5BF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD08A4341A922F0000D5BF82 /* PBXTargetDependency */,
+			);
+			name = MagicBeepTests;
+			productName = MagicBeepTests;
+			productReference = DD08A4321A922F0000D5BF82 /* MagicBeepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD08A4141A922F0000D5BF82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ISKN;
+				TargetAttributes = {
+					DD08A41B1A922F0000D5BF82 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DD08A4311A922F0000D5BF82 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DD08A41B1A922F0000D5BF82;
+					};
+				};
+			};
+			buildConfigurationList = DD08A4171A922F0000D5BF82 /* Build configuration list for PBXProject "MagicBeep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD08A4131A922F0000D5BF82;
+			productRefGroup = DD08A41D1A922F0000D5BF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD08A41B1A922F0000D5BF82 /* MagicBeep */,
+				DD08A4311A922F0000D5BF82 /* MagicBeepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD08A41A1A922F0000D5BF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08A44B1A9234C100D5BF82 /* Beep 2.wav in Resources */,
+				DD08A42A1A922F0000D5BF82 /* Images.xcassets in Resources */,
+				DD08A44D1A9234CC00D5BF82 /* Beep 3.wav in Resources */,
+				DD08A4491A9234B200D5BF82 /* Beep.wav in Resources */,
+				DD08A42D1A922F0000D5BF82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD08A4301A922F0000D5BF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD08A4181A922F0000D5BF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08A4281A922F0000D5BF82 /* ViewController.m in Sources */,
+				DD08A4251A922F0000D5BF82 /* main.m in Sources */,
+				DD08A4231A922F0000D5BF82 /* AppDelegate.m in Sources */,
+				DD08A4441A922FB700D5BF82 /* MagicBeep.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD08A42E1A922F0000D5BF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08A4391A922F0000D5BF82 /* MagicBeepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD08A4341A922F0000D5BF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD08A41B1A922F0000D5BF82 /* MagicBeep */;
+			targetProxy = DD08A4331A922F0000D5BF82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD08A42B1A922F0000D5BF82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD08A42C1A922F0000D5BF82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD08A43A1A922F0000D5BF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../ISKN_API/x64_MACOS_Clang/include;
+				LIBRARY_SEARCH_PATHS = ../../../ISKN_API/x64_MACOS_Clang/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD08A43B1A922F0000D5BF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../ISKN_API/x64_MACOS_Clang/include;
+				LIBRARY_SEARCH_PATHS = ../../../ISKN_API/x64_MACOS_Clang/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD08A43D1A922F0000D5BF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../../ISKN_API/x64_MACOS_Clang/include,
+				);
+				INFOPLIST_FILE = MagicBeep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../ISKN_API/x64_MACOS_Clang/bin,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.iskn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD08A43E1A922F0000D5BF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../../ISKN_API/x64_MACOS_Clang/include,
+				);
+				INFOPLIST_FILE = MagicBeep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../ISKN_API/x64_MACOS_Clang/bin,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.iskn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD08A4401A922F0000D5BF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MagicBeepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.iskn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicBeep.app/Contents/MacOS/MagicBeep";
+			};
+			name = Debug;
+		};
+		DD08A4411A922F0000D5BF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MagicBeepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.iskn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicBeep.app/Contents/MacOS/MagicBeep";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD08A4171A922F0000D5BF82 /* Build configuration list for PBXProject "MagicBeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08A43A1A922F0000D5BF82 /* Debug */,
+				DD08A43B1A922F0000D5BF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD08A43C1A922F0000D5BF82 /* Build configuration list for PBXNativeTarget "MagicBeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08A43D1A922F0000D5BF82 /* Debug */,
+				DD08A43E1A922F0000D5BF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD08A43F1A922F0000D5BF82 /* Build configuration list for PBXNativeTarget "MagicBeepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08A4401A922F0000D5BF82 /* Debug */,
+				DD08A4411A922F0000D5BF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD08A4141A922F0000D5BF82 /* Project object */;
+}

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Ressources/document-new.png</file>
+        <file>Ressources/save.png</file>
+        <file>Ressources/zoom-in.png</file>
+        <file>Ressources/zoom-out.png</file>
+        <file>Ressources/Record.png</file>
+        <file>Ressources/14_rotate.png</file>
+        <file>Ressources/rotate_cw.png</file>
+        <file>Ressources/folder_open_16.png</file>
+        <file>Ressources/iskn.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="refresh">resources/refresh.png</file>
+        <file alias="open">resources/open_folder.png</file>
+    </qresource>
+</RCC>

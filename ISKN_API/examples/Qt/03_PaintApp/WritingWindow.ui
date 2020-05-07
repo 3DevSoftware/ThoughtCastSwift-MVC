@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WritingWindow</class>
+ <widget class="QMainWindow" name="WritingWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>909</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WritingWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="MagmaIcons.qrc">
+    <normaloff>:/Ressources/iskn.png</normaloff>:/Ressources/iskn.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGraphicsView" name="drawingSheet"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>584</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionSet_Device_ID"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew"/>
+   <addaction name="actionSave_as"/>
+   <addaction name="separator"/>
+   <addaction name="actionZoom_in"/>
+   <addaction name="actionZoom_out"/>
+   <addaction name="separator"/>
+   <addaction name="actionRotation_a_gauche"/>
+   <addaction name="actionRotation_a_droite"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="MagmaIcons.qrc">
+     <normaloff>:/Ressources/document-new.png</normaloff>:/Ressources/document-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="icon">
+    <iconset resource="MagmaIcons.qrc">
+     <normaloff>:/Ressources/save.png</normaloff>:/Ressources/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save as</string>
+   </property>
+  </action>
+  <action name="actionZoom_in">
+   <property name="icon">
+    <iconset resource="MagmaIcons.qrc">
+     <normaloff>:/Ressources/zoom-in.png</normaloff>:/Ressources/zoom-in.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zoom in</string>
+   </property>
+  </action>
+  <action name="actionZoom_out">
+   <property name="icon">
+    <iconset resource="MagmaIcons.qrc">
+     <normaloff>:/Ressources/zoom-out.png</normaloff>:/Ressources/zoom-out.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zoom out</string>
+   </property>
+  </action>
+  <action name="actionReset">
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="toolTip">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionRotation_a_gauche">
+   <property name="icon">
+    <iconset resource="MagmaIcons.qrc">
+     <normaloff>:/Ressources/14_rotate.png</normaloff>:/Ressources/14_rotate.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rotation a gauche</string>
+   </property>
+  </action>
+  <action name="actionRotation_a_droite">
+   <property name="icon">
+    <iconset resource="MagmaIcons.qrc">
+     <normaloff>:/Ressources/rotate_cw.png</normaloff>:/Ressources/rotate_cw.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rotation a droite</string>
+   </property>
+  </action>
+  <action name="actionSet_Device_ID">
+   <property name="text">
+    <string>Set Device Name</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MagmaIcons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0FAB5B2415B67A00DE5D16 /* keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0FAB5A2415B67A00DE5D16 /* keys.swift */; };
+		3E21CDC123B6AEA300E2AB48 /* DrawingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21CDC023B6AEA300E2AB48 /* DrawingCollectionViewCell.swift */; };
+		3E21CDC323B6B64C00E2AB48 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21CDC223B6B64C00E2AB48 /* Extentions.swift */; };
+		3E21CDC523B6B72C00E2AB48 /* SavedDrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21CDC423B6B72C00E2AB48 /* SavedDrawingsViewController.swift */; };
+		3E21CDC723B7108000E2AB48 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21CDC623B7108000E2AB48 /* ShowImageViewController.swift */; };
+		3E21CDCC23B7293300E2AB48 /* SF-Pro-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E21CDC923B7293300E2AB48 /* SF-Pro-Display-Bold.ttf */; };
+		3E21CDCD23B7293300E2AB48 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E21CDCA23B7293300E2AB48 /* FiraSans-Regular.ttf */; };
+		3E21CDCE23B7293300E2AB48 /* SF-Pro-Text-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E21CDCB23B7293300E2AB48 /* SF-Pro-Text-Regular.ttf */; };
+		3E3B27BF238B4F4B00EE6FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B27BE238B4F4B00EE6FF6 /* AppDelegate.swift */; };
+		3E3B27C9238B4F4B00EE6FF6 /* NeoPenDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B27C7238B4F4B00EE6FF6 /* NeoPenDemo.xcdatamodeld */; };
+		3E3B27CB238B4F4D00EE6FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B27CA238B4F4D00EE6FF6 /* Assets.xcassets */; };
+		3E3B27CE238B4F4D00EE6FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B27CC238B4F4D00EE6FF6 /* LaunchScreen.storyboard */; };
+		3E3B27D9238B4FAE00EE6FF6 /* Drawing+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B27D7238B4FAE00EE6FF6 /* Drawing+Convenience.swift */; };
+		3E3B27DA238B4FAE00EE6FF6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B27D8238B4FAE00EE6FF6 /* CoreDataStack.swift */; };
+		3E3B27E3238B4FCE00EE6FF6 /* DrawingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B27E2238B4FCE00EE6FF6 /* DrawingController.swift */; };
+		3E3B27E6238B4FDA00EE6FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B27E5238B4FDA00EE6FF6 /* Main.storyboard */; };
+		3E3D97BE239C91DB0080A460 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D97BD239C91DB0080A460 /* Canvas.swift */; };
+		3E46A685239B572B00C248E9 /* NISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E46A684239B572B00C248E9 /* NISDK.framework */; };
+		3E5D8ABA23D7F6F50089F86D /* ZoneModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D8AB923D7F6F50089F86D /* ZoneModeViewController.swift */; };
+		3E5D8ABD23D7F71B0089F86D /* ZoneModeCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D8ABC23D7F71B0089F86D /* ZoneModeCanvas.swift */; };
+		3E5D8AC023D7F74D0089F86D /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D8ABF23D7F74D0089F86D /* Line.swift */; };
+		3E5D8AC723D7F7F00089F86D /* ColorPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D8AC423D7F7F00089F86D /* ColorPickerButton.swift */; };
+		3E5D8AC823D7F7F00089F86D /* ColorPickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D8AC523D7F7F00089F86D /* ColorPickerItem.swift */; };
+		3E5D8AC923D7F7F00089F86D /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D8AC623D7F7F00089F86D /* ColorPicker.swift */; };
+		3EAEC571239228EE00109465 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAEC570239228EE00109465 /* DrawingViewController.swift */; };
+		3EC50319238BA9CD00A28576 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC50318238BA9CD00A28576 /* HomeViewController.swift */; };
+		3EC50339238BAE8400A28576 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC50338238BAE8400A28576 /* libz.tbd */; };
+		3EC881CF23E51EB60058193D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC881CE23E51EB60058193D /* SettingsTableViewController.swift */; };
+		3EC881D123E520520058193D /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC881D023E520520058193D /* OnBoarding.storyboard */; };
+		3EC881D323E5209C0058193D /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC881D223E5209C0058193D /* Settings.storyboard */; };
+		3ED6321823DE369200B77466 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ED6321723DE369200B77466 /* GoogleService-Info.plist */; };
+		3ED6321A23DE3B5E00B77466 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6321923DE3B5E00B77466 /* LoginViewController.swift */; };
+		3ED6321E23DE3B7A00B77466 /* FirebaseFuntions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6321C23DE3B7A00B77466 /* FirebaseFuntions.swift */; };
+		3ED6321F23DE3B7A00B77466 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6321D23DE3B7A00B77466 /* Reachability.swift */; };
+		3ED6322623DE7C4000B77466 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6322523DE7C4000B77466 /* OnboardingViewController.swift */; };
+		D14B05C6EE183F8613CBF79B /* Pods_NeoPenDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9629CE059BC830B9FB6A0183 /* Pods_NeoPenDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E0FAB5A2415B67A00DE5D16 /* keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keys.swift; sourceTree = "<group>"; };
+		3E21CDC023B6AEA300E2AB48 /* DrawingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E21CDC223B6B64C00E2AB48 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		3E21CDC423B6B72C00E2AB48 /* SavedDrawingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedDrawingsViewController.swift; sourceTree = "<group>"; };
+		3E21CDC623B7108000E2AB48 /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
+		3E21CDC923B7293300E2AB48 /* SF-Pro-Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.ttf"; sourceTree = "<group>"; };
+		3E21CDCA23B7293300E2AB48 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		3E21CDCB23B7293300E2AB48 /* SF-Pro-Text-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.ttf"; sourceTree = "<group>"; };
+		3E3B27BB238B4F4B00EE6FF6 /* NeoPenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoPenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3B27BE238B4F4B00EE6FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E3B27C8238B4F4B00EE6FF6 /* NeoPenDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeoPenDemo.xcdatamodel; sourceTree = "<group>"; };
+		3E3B27CA238B4F4D00EE6FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E3B27CD238B4F4D00EE6FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E3B27CF238B4F4D00EE6FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3B27D7238B4FAE00EE6FF6 /* Drawing+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Drawing+Convenience.swift"; sourceTree = "<group>"; };
+		3E3B27D8238B4FAE00EE6FF6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		3E3B27E2238B4FCE00EE6FF6 /* DrawingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingController.swift; sourceTree = "<group>"; };
+		3E3B27E5238B4FDA00EE6FF6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3E3D97BD239C91DB0080A460 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		3E46A684239B572B00C248E9 /* NISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NISDK.framework; sourceTree = "<group>"; };
+		3E5D8AB923D7F6F50089F86D /* ZoneModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneModeViewController.swift; sourceTree = "<group>"; };
+		3E5D8ABC23D7F71B0089F86D /* ZoneModeCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneModeCanvas.swift; sourceTree = "<group>"; };
+		3E5D8ABF23D7F74D0089F86D /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		3E5D8AC423D7F7F00089F86D /* ColorPickerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerButton.swift; sourceTree = "<group>"; };
+		3E5D8AC523D7F7F00089F86D /* ColorPickerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerItem.swift; sourceTree = "<group>"; };
+		3E5D8AC623D7F7F00089F86D /* ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		3E810270239C9E42005E3208 /* NeoPenDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeoPenDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3EAEC570239228EE00109465 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		3EB3214A238F108900818136 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3EC50318238BA9CD00A28576 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3EC50338238BAE8400A28576 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3EC881CE23E51EB60058193D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		3EC881D023E520520058193D /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		3EC881D223E5209C0058193D /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		3ED6321723DE369200B77466 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3ED6321923DE3B5E00B77466 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3ED6321C23DE3B7A00B77466 /* FirebaseFuntions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseFuntions.swift; sourceTree = "<group>"; };
+		3ED6321D23DE3B7A00B77466 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3ED6322523DE7C4000B77466 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		3EFD678D23B74B7D006CB882 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8186833E33560B79E39A5A91 /* Pods-NeoPenDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoPenDemo.release.xcconfig"; path = "Target Support Files/Pods-NeoPenDemo/Pods-NeoPenDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9629CE059BC830B9FB6A0183 /* Pods_NeoPenDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoPenDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB60C541777B796497A5B4EA /* Pods-NeoPenDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoPenDemo.debug.xcconfig"; path = "Target Support Files/Pods-NeoPenDemo/Pods-NeoPenDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3B27B8238B4F4B00EE6FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E46A685239B572B00C248E9 /* NISDK.framework in Frameworks */,
+				3EC50339238BAE8400A28576 /* libz.tbd in Frameworks */,
+				D14B05C6EE183F8613CBF79B /* Pods_NeoPenDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0FAB5C2415B6AC00DE5D16 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FAB5A2415B67A00DE5D16 /* keys.swift */,
+				3E21CDC223B6B64C00E2AB48 /* Extentions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3E0FAB5D2415B6C400DE5D16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EC50317238BA9B200A28576 /* ViewControllers */,
+				3E3B27E1238B4FC400EE6FF6 /* Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3E21CDC823B7293300E2AB48 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3E21CDC923B7293300E2AB48 /* SF-Pro-Display-Bold.ttf */,
+				3E21CDCA23B7293300E2AB48 /* FiraSans-Regular.ttf */,
+				3E21CDCB23B7293300E2AB48 /* SF-Pro-Text-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3E3B27B2238B4F4B00EE6FF6 = {
+			isa = PBXGroup;
+			children = (
+				3E3B27BD238B4F4B00EE6FF6 /* NeoPenDemo */,
+				3E3B27BC238B4F4B00EE6FF6 /* Products */,
+				3EC50333238BAE6000A28576 /* Frameworks */,
+				A09DAA9D3E7542C5789B0934 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3E3B27BC238B4F4B00EE6FF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B27BB238B4F4B00EE6FF6 /* NeoPenDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E3B27BD238B4F4B00EE6FF6 /* NeoPenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3ED6321B23DE3B7A00B77466 /* Networking */,
+				3E3B27D5238B4F8F00EE6FF6 /* Resources */,
+				3E0FAB5D2415B6C400DE5D16 /* Controllers */,
+				3E3B27E4238B4FD200EE6FF6 /* Views */,
+				3E3B27D6238B4F9D00EE6FF6 /* Models */,
+			);
+			path = NeoPenDemo;
+			sourceTree = "<group>";
+		};
+		3E3B27D5238B4F8F00EE6FF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E21CDC823B7293300E2AB48 /* Fonts */,
+				3E0FAB5C2415B6AC00DE5D16 /* Helpers */,
+				3E810270239C9E42005E3208 /* NeoPenDemo-Bridging-Header.h */,
+				3E3B27BE238B4F4B00EE6FF6 /* AppDelegate.swift */,
+				3E3B27CA238B4F4D00EE6FF6 /* Assets.xcassets */,
+				3E3B27CC238B4F4D00EE6FF6 /* LaunchScreen.storyboard */,
+				3E3B27CF238B4F4D00EE6FF6 /* Info.plist */,
+				3ED6321723DE369200B77466 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3E3B27D6238B4F9D00EE6FF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B27C7238B4F4B00EE6FF6 /* NeoPenDemo.xcdatamodeld */,
+				3E3B27D8238B4FAE00EE6FF6 /* CoreDataStack.swift */,
+				3E3B27D7238B4FAE00EE6FF6 /* Drawing+Convenience.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E3B27E1238B4FC400EE6FF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B27E2238B4FCE00EE6FF6 /* DrawingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E3B27E4238B4FD200EE6FF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B27E5238B4FDA00EE6FF6 /* Main.storyboard */,
+				3EC881D223E5209C0058193D /* Settings.storyboard */,
+				3EC881D023E520520058193D /* OnBoarding.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E5D8ABE23D7F7370089F86D /* ZoneModeCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D8ABF23D7F74D0089F86D /* Line.swift */,
+				3E5D8ABC23D7F71B0089F86D /* ZoneModeCanvas.swift */,
+			);
+			path = ZoneModeCanvas;
+			sourceTree = "<group>";
+		};
+		3E5D8AC123D7F77F0089F86D /* ZoneMode */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D8AB923D7F6F50089F86D /* ZoneModeViewController.swift */,
+				3E5D8AC323D7F7F00089F86D /* ColorPicker */,
+				3E5D8ABE23D7F7370089F86D /* ZoneModeCanvas */,
+			);
+			path = ZoneMode;
+			sourceTree = "<group>";
+		};
+		3E5D8AC223D7F78C0089F86D /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				3EAEC570239228EE00109465 /* DrawingViewController.swift */,
+				3E3D97BD239C91DB0080A460 /* Canvas.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		3E5D8AC323D7F7F00089F86D /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D8AC423D7F7F00089F86D /* ColorPickerButton.swift */,
+				3E5D8AC523D7F7F00089F86D /* ColorPickerItem.swift */,
+				3E5D8AC623D7F7F00089F86D /* ColorPicker.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		3EC50317238BA9B200A28576 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3ED6321923DE3B5E00B77466 /* LoginViewController.swift */,
+				3EC50318238BA9CD00A28576 /* HomeViewController.swift */,
+				3E5D8AC223D7F78C0089F86D /* Drawing */,
+				3E5D8AC123D7F77F0089F86D /* ZoneMode */,
+				3ED6322023DE770B00B77466 /* Saved Images ViewControllers */,
+				3ED6322523DE7C4000B77466 /* OnboardingViewController.swift */,
+				3EC881CE23E51EB60058193D /* SettingsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3EC50333238BAE6000A28576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EFD678D23B74B7D006CB882 /* MessageUI.framework */,
+				3E46A684239B572B00C248E9 /* NISDK.framework */,
+				3EC50338238BAE8400A28576 /* libz.tbd */,
+				3EB3214A238F108900818136 /* CoreBluetooth.framework */,
+				9629CE059BC830B9FB6A0183 /* Pods_NeoPenDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ED6321B23DE3B7A00B77466 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3ED6321C23DE3B7A00B77466 /* FirebaseFuntions.swift */,
+				3ED6321D23DE3B7A00B77466 /* Reachability.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3ED6322023DE770B00B77466 /* Saved Images ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E21CDC023B6AEA300E2AB48 /* DrawingCollectionViewCell.swift */,
+				3E21CDC423B6B72C00E2AB48 /* SavedDrawingsViewController.swift */,
+				3E21CDC623B7108000E2AB48 /* ShowImageViewController.swift */,
+			);
+			path = "Saved Images ViewControllers";
+			sourceTree = "<group>";
+		};
+		A09DAA9D3E7542C5789B0934 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB60C541777B796497A5B4EA /* Pods-NeoPenDemo.debug.xcconfig */,
+				8186833E33560B79E39A5A91 /* Pods-NeoPenDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E3B27BA238B4F4B00EE6FF6 /* NeoPenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3B27D2238B4F4D00EE6FF6 /* Build configuration list for PBXNativeTarget "NeoPenDemo" */;
+			buildPhases = (
+				E12DD3CA565BE88D9715AAB8 /* [CP] Check Pods Manifest.lock */,
+				3E3B27B9238B4F4B00EE6FF6 /* Resources */,
+				3E3B27B8238B4F4B00EE6FF6 /* Frameworks */,
+				3E3B27B7238B4F4B00EE6FF6 /* Sources */,
+				34A4E3705A11BE33F0ACEE58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoPenDemo;
+			productName = NeoPenDemo;
+			productReference = 3E3B27BB238B4F4B00EE6FF6 /* NeoPenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E3B27B3238B4F4B00EE6FF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Trevor Walker";
+				TargetAttributes = {
+					3E3B27BA238B4F4B00EE6FF6 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 3E3B27B6238B4F4B00EE6FF6 /* Build configuration list for PBXProject "NeoPenDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E3B27B2238B4F4B00EE6FF6;
+			productRefGroup = 3E3B27BC238B4F4B00EE6FF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E3B27BA238B4F4B00EE6FF6 /* NeoPenDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E3B27B9238B4F4B00EE6FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E21CDCE23B7293300E2AB48 /* SF-Pro-Text-Regular.ttf in Resources */,
+				3E3B27E6238B4FDA00EE6FF6 /* Main.storyboard in Resources */,
+				3E21CDCD23B7293300E2AB48 /* FiraSans-Regular.ttf in Resources */,
+				3E3B27CE238B4F4D00EE6FF6 /* LaunchScreen.storyboard in Resources */,
+				3E21CDCC23B7293300E2AB48 /* SF-Pro-Display-Bold.ttf in Resources */,
+				3E3B27CB238B4F4D00EE6FF6 /* Assets.xcassets in Resources */,
+				3EC881D323E5209C0058193D /* Settings.storyboard in Resources */,
+				3ED6321823DE369200B77466 /* GoogleService-Info.plist in Resources */,
+				3EC881D123E520520058193D /* OnBoarding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34A4E3705A11BE33F0ACEE58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoPenDemo/Pods-NeoPenDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoPenDemo/Pods-NeoPenDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoPenDemo/Pods-NeoPenDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E12DD3CA565BE88D9715AAB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoPenDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3B27B7238B4F4B00EE6FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3B27E3238B4FCE00EE6FF6 /* DrawingController.swift in Sources */,
+				3E3B27DA238B4FAE00EE6FF6 /* CoreDataStack.swift in Sources */,
+				3E3B27D9238B4FAE00EE6FF6 /* Drawing+Convenience.swift in Sources */,
+				3E21CDC323B6B64C00E2AB48 /* Extentions.swift in Sources */,
+				3ED6322623DE7C4000B77466 /* OnboardingViewController.swift in Sources */,
+				3ED6321E23DE3B7A00B77466 /* FirebaseFuntions.swift in Sources */,
+				3ED6321A23DE3B5E00B77466 /* LoginViewController.swift in Sources */,
+				3E3B27C9238B4F4B00EE6FF6 /* NeoPenDemo.xcdatamodeld in Sources */,
+				3E3B27BF238B4F4B00EE6FF6 /* AppDelegate.swift in Sources */,
+				3E0FAB5B2415B67A00DE5D16 /* keys.swift in Sources */,
+				3E3D97BE239C91DB0080A460 /* Canvas.swift in Sources */,
+				3EC50319238BA9CD00A28576 /* HomeViewController.swift in Sources */,
+				3EAEC571239228EE00109465 /* DrawingViewController.swift in Sources */,
+				3E5D8AC723D7F7F00089F86D /* ColorPickerButton.swift in Sources */,
+				3E5D8AC923D7F7F00089F86D /* ColorPicker.swift in Sources */,
+				3E21CDC123B6AEA300E2AB48 /* DrawingCollectionViewCell.swift in Sources */,
+				3ED6321F23DE3B7A00B77466 /* Reachability.swift in Sources */,
+				3E5D8ABA23D7F6F50089F86D /* ZoneModeViewController.swift in Sources */,
+				3E5D8ABD23D7F71B0089F86D /* ZoneModeCanvas.swift in Sources */,
+				3E5D8AC823D7F7F00089F86D /* ColorPickerItem.swift in Sources */,
+				3E5D8AC023D7F74D0089F86D /* Line.swift in Sources */,
+				3E21CDC523B6B72C00E2AB48 /* SavedDrawingsViewController.swift in Sources */,
+				3EC881CF23E51EB60058193D /* SettingsTableViewController.swift in Sources */,
+				3E21CDC723B7108000E2AB48 /* ShowImageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E3B27CC238B4F4D00EE6FF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E3B27CD238B4F4D00EE6FF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E3B27D0238B4F4D00EE6FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E3B27D1238B4F4D00EE6FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E3B27D3238B4F4D00EE6FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB60C541777B796497A5B4EA /* Pods-NeoPenDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 5526NS6QJA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ISKN_API/ISKN_API/arm_iOS/include";
+				INFOPLIST_FILE = "$(SRCROOT)/NeoPenDemo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NeoPenDemo/NISDK",
+					"$(SRCROOT)/ISKN_API/ISKN_API/lib",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorWalker.NeoPenDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NeoPenDemo/Resources/NeoPenDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E3B27D4238B4F4D00EE6FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8186833E33560B79E39A5A91 /* Pods-NeoPenDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 5526NS6QJA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ISKN_API/ISKN_API/arm_iOS/include";
+				INFOPLIST_FILE = "$(SRCROOT)/NeoPenDemo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NeoPenDemo/NISDK",
+					"$(SRCROOT)/ISKN_API/ISKN_API/lib",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorWalker.NeoPenDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NeoPenDemo/Resources/NeoPenDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3B27B6238B4F4B00EE6FF6 /* Build configuration list for PBXProject "NeoPenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3B27D0238B4F4D00EE6FF6 /* Debug */,
+				3E3B27D1238B4F4D00EE6FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3B27D2238B4F4D00EE6FF6 /* Build configuration list for PBXNativeTarget "NeoPenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3B27D3238B4F4D00EE6FF6 /* Debug */,
+				3E3B27D4238B4F4D00EE6FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E3B27C7238B4F4B00EE6FF6 /* NeoPenDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E3B27C8238B4F4B00EE6FF6 /* NeoPenDemo.xcdatamodel */,
+			);
+			currentVersion = 3E3B27C8238B4F4B00EE6FF6 /* NeoPenDemo.xcdatamodel */;
+			path = NeoPenDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E3B27B3238B4F4B00EE6FF6 /* Project object */;
+}
